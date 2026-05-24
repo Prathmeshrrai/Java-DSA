@@ -9,7 +9,7 @@ class Solution{
         System.out.println(maximumWealth(accounts));
     }
 
-    public int maximumWealth(int[][] accounts){
+    static int maximumWealth(int[][] accounts){
         //person = row
         //account = col
         int ans = Integer.MIN_VALUE;
@@ -17,7 +17,7 @@ class Solution{
             //when you start a new col, take a new sum for that row
             int sum = 0;
             for(int anInt:ints){
-                sum+ = anInt;
+                sum += anInt;
             }
             //now we have sum of accounts of person
             //check with overall ans

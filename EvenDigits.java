@@ -21,6 +21,7 @@ public class EvenDigits{
             return true;
         }        return false;
         //return numberOfDigits%2==0;
+        
         static int digits(int num){
             if (num<0){
                 num = num + -1;
